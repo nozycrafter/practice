@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans');
+
+body {
+    background-image: url("bg2.jpg");
+    background-size: cover;
+  }
+
+.main{
+}
+
+.title{
+    font-family: "M PLUS 1p";
+    text-align: center;
+    font-size: 6vw;
+    color: darkorange;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.subTitle{
+    font-family: "M PLUS 1p";
+    text-align: center;
+    font-size: 4vw;
+    color: #7b9aff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.pic{
+    text-align: center;
+}
+
+.invitationLink{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.fadeDown {
+    animation-name:fadeUpAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity: 0;
+    animation-delay: 0.5s;
+    }
+    @keyframes fadeUpAnime{
+      from {
+        opacity: 0;
+        transform: scale(0);
+        transform: translateY(-100px);
+      }
+    
+      to {
+        opacity: 1;
+        transform: scale(100);
+        transform: translateY(0);
+      }
+    }
+
+    .fadeDown2 {
+        animation-name:pop;
+        animation-duration:1s;
+        animation-fill-mode:forwards;
+        opacity: 0;
+        animation-delay: 1s;
+        }
+        @keyframes pop{
+          from {
+            opacity: 0;
+            transform: scale(0);
+            transform: translateY(-100px);
+          }
+        
+          to {
+            opacity: 1;
+            transform: scale(100);
+            transform: translateY(0);
+          }
+        }
+
+        .fadeDown3 {
+            animation-name:pop;
+            animation-duration:2.5s;
+            animation-fill-mode:forwards;
+            opacity: 0;
+            animation-delay: 2s;
+            }
+            @keyframes pop{
+              from {
+                opacity: 0;
+                transform: scale(0);
+                transform: translateY(-100px);
+              }
+            
+              to {
+                opacity: 1;
+                transform: scale(100);
+                transform: translateY(0);
+              }
+            }
+
+            .fadeDown4 {
+                animation-name:pop;
+                animation-duration:2.5s;
+                animation-fill-mode:forwards;
+                opacity: 0;
+                animation-delay: 3s;
+                }
+                @keyframes pop{
+                  from {
+                    opacity: 0;
+                    transform: scale(0);
+                    transform: translateY(-100px);
+                  }
+                
+                  to {
+                    opacity: 1;
+                    transform: scale(100);
+                    transform: translateY(0);
+                  }
+                }
